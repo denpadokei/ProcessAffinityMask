@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using IPA.Config.Stores;
+using IPA.Config.Stores.Attributes;
+using IPA.Config.Stores.Converters;
 
 [assembly: InternalsVisibleTo(GeneratedStore.AssemblyVisibilityTarget)]
 namespace ProcessAffinityMask.Configuration
@@ -16,6 +18,8 @@ namespace ProcessAffinityMask.Configuration
         /// <remarks>Each integer in the list represents the zero-based index of a CPU core. The specified
         /// cores will be used to control processor affinity for operations that support it. Modifying this list allows
         /// customization of which CPU cores are utilized.</remarks>
+        [UseConverter(typeof(ListConverter<int>))]
+        [NonNullable]
         public virtual List<int> UseCPUCoreNumbers { get; set; } = new List<int> { 0, 1, 2, 3 };
         /// <summary>
         /// This is called whenever BSIPA reads the config from disk (including when file changes are detected).
