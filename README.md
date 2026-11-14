@@ -1,68 +1,62 @@
 # ProcessAffinityMask
 
-Beat Saber —p‚Ì BSIPA ƒvƒ‰ƒOƒCƒ“BƒvƒƒZƒX‚Ì CPU ƒAƒtƒBƒjƒeƒBƒ}ƒXƒNiCPU ƒRƒA‚Ìg—pİ’èj‚ğ§Œä‚µAƒQ[ƒ€‚ÌƒpƒtƒH[ƒ}ƒ“ƒX‚ğÅ“K‰»‚µ‚Ü‚·B
+[![Build and Release](https://github.com/denpadokei/ProcessAffinityMask/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/denpadokei/ProcessAffinityMask/actions/workflows/build-and-release.yml)
 
-## ŠT—v
+Beat Saber ã®ãƒ—ãƒ­ã‚»ã‚¹ã« CPU ã‚¢ãƒ•ã‚£ãƒ‹ãƒ†ã‚£ãƒã‚¹ã‚¯ã‚’è¨­å®šã—ã€ä½¿ç”¨ã™ã‚‹ CPU ã‚³ã‚¢ã‚’æŒ‡å®šã§ãã‚‹ MOD ã§ã™ã€‚ãƒãƒ«ãƒã‚³ã‚¢ CPU ã§ç‰¹å®šã®ã‚³ã‚¢ã ã‘ã‚’ä½¿ã‚ã›ãŸã„å ´åˆã«åˆ©ç”¨ã—ã¾ã™ã€‚
 
-ProcessAffinityMask ‚ÍABeat Saber ƒvƒƒZƒX‚ªg—p‚·‚é CPU ƒRƒA‚ğw’è‚Å‚«‚éƒvƒ‰ƒOƒCƒ“‚Å‚·Bƒ}ƒ‹ƒ`ƒRƒA CPU ŠÂ‹«‚É‚¨‚¢‚ÄA“Á’è‚Ì CPU ƒRƒA‚ğƒQ[ƒ€‚ÉŠ„‚è“–‚Ä‚é‚±‚Æ‚ÅAƒVƒXƒeƒ€ƒŠƒ\[ƒX‚ÌŒø—¦“I‚Èg—p‚âƒpƒtƒH[ƒ}ƒ“ƒX‚ÌŒüã‚ğÀŒ»‚Å‚«‚Ü‚·B
+## æ©Ÿèƒ½
 
-## ‹@”\
+- ã‚²ãƒ¼ãƒ èµ·å‹•æ™‚ã« Beat Saber ãƒ—ãƒ­ã‚»ã‚¹ã®ã‚¢ãƒ•ã‚£ãƒ‹ãƒ†ã‚£ãƒã‚¹ã‚¯ã‚’è¨­å®š
+- ä½¿ç”¨ã™ã‚‹ CPU ã‚³ã‚¢ç•ªå·ã‚’ 0 å§‹ã¾ã‚Šã®ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã§æŒ‡å®š
+- ç¯„å›²å¤–ã®ã‚³ã‚¢ç•ªå·ã¯è­¦å‘Šã‚’ãƒ­ã‚°ã«å‡ºã—ã¦ã‚¹ã‚­ãƒƒãƒ—
+- è¨­å®šã—ãŸã‚³ã‚¢ãŒ 1 ã¤ã‚‚ç„¡ã„å ´åˆã¯ã‚¢ãƒ•ã‚£ãƒ‹ãƒ†ã‚£ã‚’å¤‰æ›´ã—ãªã„
+- è¨­å®šã®é©ç”¨çµæœã¨å¤±æ•—æ™‚ã®ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰ã‚’ãƒ­ã‚°ã«å‡ºåŠ›
 
-- CPU ƒRƒA‚Ì‘I‘ğ“IŠ„‚è“–‚Ä
-- ƒvƒƒZƒXƒAƒtƒBƒjƒeƒBƒ}ƒXƒN‚Ì“®“I§Œä
-- İ’èƒtƒ@ƒCƒ‹‚É‚æ‚éŠÈ’P‚ÈƒJƒXƒ^ƒ}ƒCƒY
+## å‹•ä½œç’°å¢ƒ
 
-## “®ìŠÂ‹«
+| é …ç›® | å†…å®¹ |
+| --- | --- |
+| Beat Saber | 1.39.1 |
+| ä¾å­˜ MOD | BSIPA 4.3.6 |
 
-- Beat Saber
-- BSIPA 4.3.6 ˆÈã
-- .NET Framework 4.8
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-## ƒCƒ“ƒXƒg[ƒ‹
+1. Beat Saber ã‚’ 1.39.1 ã«åˆã‚ã›ã‚‹ (BSManager ãªã©ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ç®¡ç†ãƒ„ãƒ¼ãƒ«ã‚’æ¨å¥¨)
+2. BSIPA ã¨ä¸Šè¨˜ã®ä¾å­˜ MOD ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
+3. [Releases](https://github.com/denpadokei/ProcessAffinityMask/releases) ã‹ã‚‰ `ProcessAffinityMask-0.0.1-bs1.39.1.zip` ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã€`Plugins` ãƒ•ã‚©ãƒ«ãƒ€ã‚’ã‚²ãƒ¼ãƒ ãƒ•ã‚©ãƒ«ãƒ€ã¸ä¸Šæ›¸ãã‚³ãƒ”ãƒ¼ã™ã‚‹
 
-1. [ƒŠƒŠ[ƒXƒy[ƒW](https://github.com/denpadokei/ProcessAffinityMask/releases)‚©‚çÅV”Å‚ğƒ_ƒEƒ“ƒ[ƒh
-2. `ProcessAffinityMask.dll` ‚ğ Beat Saber ‚Ì `Plugins` ƒtƒHƒ‹ƒ_‚É”z’u
+## ä½¿ã„æ–¹
 
-## İ’è
-
-ƒvƒ‰ƒOƒCƒ“‚Ìİ’è‚Í `Beat Saber\UserData\ProcessAffinityMask.json` ‚Ås‚¦‚Ü‚·B
-
-### ƒfƒtƒHƒ‹ƒgİ’è—á
-
-```json
-{
-  "useCPUCoreNumbers": [0, 1, 2, 3]
-}
-```
-
-### İ’è€–Ú
-
-- **useCPUCoreNumbers**: g—p‚·‚é CPU ƒRƒA‚Ì”Ô†ƒŠƒXƒgi0 ‚©‚çn‚Ü‚éƒCƒ“ƒfƒbƒNƒXj
-  - —á: `[0, 1, 2, 3]` ¨ ƒRƒA 0, 1, 2, 3 ‚ğg—p
-  - —á: `[0, 2, 4]` ¨ ƒRƒA 0, 2, 4 ‚ğg—p
-
-## g—p—á
-
-CPU ƒRƒA‚ğŒÀ’è‚µ‚½‚¢ê‡A`useCPUCoreNumbers` ‚ğ•ÒW‚µ‚Ü‚·F
+ä½¿ç”¨ã™ã‚‹ CPU ã‚³ã‚¢ã‚’å¤‰ãˆãŸã„å ´åˆã¯ã€`UserData/ProcessAffinityMask.json` ã® `UseCPUCoreNumbers` ã‚’ç·¨é›†ã—ã¾ã™ã€‚
 
 ```json
 {
-  "useCPUCoreNumbers": [0, 1]
+  "UseCPUCoreNumbers": [0, 1]
 }
 ```
 
-## ƒgƒ‰ƒuƒ‹ƒVƒ…[ƒeƒBƒ“ƒO
+ã‚¢ãƒ•ã‚£ãƒ‹ãƒ†ã‚£ã¯ã‚²ãƒ¼ãƒ èµ·å‹•æ™‚ã«ä¸€åº¦ã ã‘è¨­å®šã•ã‚Œã‚‹ãŸã‚ã€å¤‰æ›´å¾Œã¯ Beat Saber ã‚’å®Œå…¨ã«å†èµ·å‹•ã—ã¦ãã ã•ã„ã€‚
 
-İ’è‚ª”½‰f‚³‚ê‚È‚¢ê‡‚ÍABeat Saber ‚ğŠ®‘S‚ÉÄ‹N“®‚µ‚Ä‚­‚¾‚³‚¢B
+## è¨­å®š
 
-## ƒ‰ƒCƒZƒ“ƒX
+| é …ç›® | å‹ | æ—¢å®šå€¤ | èª¬æ˜ |
+| --- | --- | --- | --- |
+| UseCPUCoreNumbers | List\<int\> | [0, 1, 2, 3] | ä½¿ç”¨ã™ã‚‹ CPU ã‚³ã‚¢ç•ªå·ã®ãƒªã‚¹ãƒˆ (0 å§‹ã¾ã‚Š)ã€‚ä¾‹: `[0, 2, 4]` ã§ã‚³ã‚¢ 0, 2, 4 ã®ã¿ä½¿ç”¨ |
 
-‚±‚ÌƒvƒƒWƒFƒNƒg‚ÍƒI[ƒvƒ“ƒ\[ƒX‚Å‚·B
+è¨­å®šã¯ `UserData/ProcessAffinityMask.json` ã«ä¿å­˜ã•ã‚Œã¾ã™ã€‚
 
-## ìÒ
+## ãƒ“ãƒ«ãƒ‰
 
-denpadokei
+```powershell
+git clone https://github.com/denpadokei/ProcessAffinityMask.git
+cd ProcessAffinityMask
+dotnet build .\ProcessAffinityMask\ProcessAffinityMask.csproj -c Release
+```
 
-## ƒTƒ|[ƒg
+csproj ã¯ `..\Refs` ãŒå­˜åœ¨ã™ã‚Œã°ãã“ã‚’å‚ç…§å…ˆã«ã—ã¾ã™ã€‚`BeatSaberDir` ã« Beat Saber ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å…ˆã‚’è¨­å®šã™ã‚‹ã¨ã€ã‚²ãƒ¼ãƒ ã®å‚ç…§ã‚¢ã‚»ãƒ³ãƒ–ãƒªã‚’è§£æ±ºã§ãã¾ã™ã€‚
 
-–â‘è‚ª”­¶‚µ‚½ê‡‚ÍA[GitHub Issues](https://github.com/denpadokei/ProcessAffinityMask/issues) ‚Å‚¨’m‚ç‚¹‚­‚¾‚³‚¢B
+GitHub Actions ã® `build-and-release.yml` ãŒ push ã”ã¨ã«ãƒ“ãƒ«ãƒ‰ã—ã€`X.X.X` å½¢å¼ã®ã‚¿ã‚°ã‚’ push ã™ã‚‹ã¨ãƒªãƒªãƒ¼ã‚¹ã‚’ä½œæˆã—ã¾ã™ã€‚
+
+## ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
+
+MIT
